@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E17932011E554C8100EF479F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17932001E554C8100EF479F /* main.m */; };
+		E17932041E554C8100EF479F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17932031E554C8100EF479F /* AppDelegate.m */; };
+		E17932071E554C8100EF479F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17932061E554C8100EF479F /* ViewController.m */; };
+		E179320A1E554C8100EF479F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17932081E554C8100EF479F /* Main.storyboard */; };
+		E179320C1E554C8100EF479F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E179320B1E554C8100EF479F /* Assets.xcassets */; };
+		E179320F1E554C8100EF479F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E179320D1E554C8100EF479F /* LaunchScreen.storyboard */; };
+		E17932181E55623B00EF479F /* HouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17932171E55623B00EF479F /* HouseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E17931FC1E554C8100EF479F /* Enterahouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enterahouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17932001E554C8100EF479F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E17932021E554C8100EF479F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E17932031E554C8100EF479F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E17932051E554C8100EF479F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E17932061E554C8100EF479F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E17932091E554C8100EF479F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E179320B1E554C8100EF479F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E179320E1E554C8100EF479F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17932101E554C8100EF479F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17932161E55623B00EF479F /* HouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseViewController.h; sourceTree = "<group>"; };
+		E17932171E55623B00EF479F /* HouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17931F91E554C8100EF479F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17931F31E554C8100EF479F = {
+			isa = PBXGroup;
+			children = (
+				E17931FE1E554C8100EF479F /* Enterahouse */,
+				E17931FD1E554C8100EF479F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E17931FD1E554C8100EF479F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17931FC1E554C8100EF479F /* Enterahouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17931FE1E554C8100EF479F /* Enterahouse */ = {
+			isa = PBXGroup;
+			children = (
+				E17932021E554C8100EF479F /* AppDelegate.h */,
+				E17932031E554C8100EF479F /* AppDelegate.m */,
+				E17932051E554C8100EF479F /* ViewController.h */,
+				E17932061E554C8100EF479F /* ViewController.m */,
+				E17932081E554C8100EF479F /* Main.storyboard */,
+				E17932161E55623B00EF479F /* HouseViewController.h */,
+				E17932171E55623B00EF479F /* HouseViewController.m */,
+				E179320B1E554C8100EF479F /* Assets.xcassets */,
+				E179320D1E554C8100EF479F /* LaunchScreen.storyboard */,
+				E17932101E554C8100EF479F /* Info.plist */,
+				E17931FF1E554C8100EF479F /* Supporting Files */,
+			);
+			path = Enterahouse;
+			sourceTree = "<group>";
+		};
+		E17931FF1E554C8100EF479F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17932001E554C8100EF479F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17931FB1E554C8100EF479F /* Enterahouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17932131E554C8100EF479F /* Build configuration list for PBXNativeTarget "Enterahouse" */;
+			buildPhases = (
+				E17931F81E554C8100EF479F /* Sources */,
+				E17931F91E554C8100EF479F /* Frameworks */,
+				E17931FA1E554C8100EF479F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enterahouse;
+			productName = Enterahouse;
+			productReference = E17931FC1E554C8100EF479F /* Enterahouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17931F41E554C8100EF479F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ali Barış Öztekin";
+				TargetAttributes = {
+					E17931FB1E554C8100EF479F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E17931F71E554C8100EF479F /* Build configuration list for PBXProject "Enterahouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17931F31E554C8100EF479F;
+			productRefGroup = E17931FD1E554C8100EF479F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17931FB1E554C8100EF479F /* Enterahouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17931FA1E554C8100EF479F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E179320F1E554C8100EF479F /* LaunchScreen.storyboard in Resources */,
+				E179320C1E554C8100EF479F /* Assets.xcassets in Resources */,
+				E179320A1E554C8100EF479F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17931F81E554C8100EF479F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17932071E554C8100EF479F /* ViewController.m in Sources */,
+				E17932041E554C8100EF479F /* AppDelegate.m in Sources */,
+				E17932011E554C8100EF479F /* main.m in Sources */,
+				E17932181E55623B00EF479F /* HouseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17932081E554C8100EF479F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17932091E554C8100EF479F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E179320D1E554C8100EF479F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E179320E1E554C8100EF479F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17932111E554C8100EF479F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E17932121E554C8100EF479F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17932141E554C8100EF479F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enterahouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.Enterahouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E17932151E554C8100EF479F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enterahouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.Enterahouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17931F71E554C8100EF479F /* Build configuration list for PBXProject "Enterahouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17932111E554C8100EF479F /* Debug */,
+				E17932121E554C8100EF479F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17932131E554C8100EF479F /* Build configuration list for PBXNativeTarget "Enterahouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17932141E554C8100EF479F /* Debug */,
+				E17932151E554C8100EF479F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17931F41E554C8100EF479F /* Project object */;
+}
